@@ -1,0 +1,137 @@
+/* ============================================
+Global styles
+=============================================== */
+
+body {
+    margin: 0;
+    font-family: Arial ;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+small {
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    margin-left: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+/* ============================================
+Layout
+=============================================== */
+
+.container {
+    _outline: dotted red 1px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #ADC6C1;
+    position: relative;
+    height: 120px;
+}
+
+
+
+.bacground-footer {
+    background-color: #333333;
+    height: 70px;
+    position: relative;
+    top: 100px;
+}
+.background-nav {
+    background-color: #333333;
+    height: 40px;
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+/* ============================================
+Specific styles
+=============================================== */
+
+.logo {
+    width: 136px;
+    height: 63px;
+    margin:0;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+a {
+    text-decoration:none;
+    color: white;
+
+}
+
+li {
+    font-size: 22px;
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    top: -3px;
+    left: -20px;
+    height: 40px;
+}
+
+nav li a:hover {
+    background-color:#ADC6C1;
+}
+
+
+
+
+nav ol li {
+    float: left;
+    list-style: none;
+
+}
+
+main {
+    position: relative;
+    top: 60px;
+}
+
+footer{
+    position: relative;
+    top: 30px;
+}
+
+p {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+
+/* ============================================
+Helper classes
+=============================================== */
+.clearfix:after {
+    content: " ";
+    display: table;
+}
